@@ -1,0 +1,20 @@
+//
+//  CBWaterActivityCell.m
+//  横向瀑布流
+//
+//  Created by 赵传保 on 2018/3/31.
+//  Copyright © 2018年 赵传保. All rights reserved.
+//
+
+#import "CBWaterActivityCell.h"
+
+@implementation CBWaterActivityCell
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    self.backImageView.layer.cornerRadius = 10;
+    self.backImageView.clipsToBounds = YES;
+}
+
+@end

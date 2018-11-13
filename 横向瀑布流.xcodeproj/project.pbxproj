@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5471EEC9FEB7B89BFE44AEAD /* libPods-横向瀑布流.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 916FC4C85E4B582F28CB5EDD /* libPods-横向瀑布流.a */; };
 		FF69F820206F2D2200A86CFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F81F206F2D2200A86CFA /* AppDelegate.m */; };
 		FF69F823206F2D2200A86CFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F822206F2D2200A86CFA /* ViewController.m */; };
 		FF69F826206F2D2200A86CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF69F824206F2D2200A86CFA /* Main.storyboard */; };
 		FF69F828206F2D2200A86CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF69F827206F2D2200A86CFA /* Assets.xcassets */; };
 		FF69F82B206F2D2200A86CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF69F829206F2D2200A86CFA /* LaunchScreen.storyboard */; };
 		FF69F82E206F2D2200A86CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F82D206F2D2200A86CFA /* main.m */; };
+		FF69F836206F2D7D00A86CFA /* CBWaterFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F835206F2D7D00A86CFA /* CBWaterFlowView.m */; };
+		FF69F83A206F2DA700A86CFA /* CBWaterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F838206F2DA700A86CFA /* CBWaterCollectionViewCell.m */; };
+		FF69F83B206F2DA700A86CFA /* CBWaterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF69F839206F2DA700A86CFA /* CBWaterCollectionViewCell.xib */; };
+		FF69F83D206F2F3300A86CFA /* QQ20180331-105123.png in Resources */ = {isa = PBXBuildFile; fileRef = FF69F83C206F2F3300A86CFA /* QQ20180331-105123.png */; };
+		FF69F840206F308800A86CFA /* SXLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F83F206F308800A86CFA /* SXLineLayout.m */; };
+		FF69F844206F357F00A86CFA /* CBWaterActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F842206F357F00A86CFA /* CBWaterActivityCell.m */; };
+		FF69F845206F357F00A86CFA /* CBWaterActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF69F843206F357F00A86CFA /* CBWaterActivityCell.xib */; };
+		FF69F84B206F38A900A86CFA /* CBWaterSmallView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F849206F38A900A86CFA /* CBWaterSmallView.m */; };
+		FF69F84E206F3BD000A86CFA /* JFAccountTopHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF69F84D206F3BD000A86CFA /* JFAccountTopHeaderView.m */; };
+		FF69F850206F3BE900A86CFA /* JFAccountTopHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF69F84F206F3BE900A86CFA /* JFAccountTopHeaderView.xib */; };
+		FFCAACAD20745C8200F11E18 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCAACAC20745C8200F11E18 /* area.plist */; };
+		FFCAACB42074606A00F11E18 /* JFProvinceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCAACB22074606A00F11E18 /* JFProvinceVC.m */; };
+		FFCAACB52074606A00F11E18 /* JFProvinceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCAACB32074606A00F11E18 /* JFProvinceVC.xib */; };
+		FFCAACB9207467E400F11E18 /* JFCityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCAACB7207467E400F11E18 /* JFCityVC.m */; };
+		FFCAACBA207467E400F11E18 /* JFCityVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCAACB8207467E400F11E18 /* JFCityVC.xib */; };
+		FFCAAD202074DAFC00F11E18 /* JFTextImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCAAD1F2074DAFC00F11E18 /* JFTextImageVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D120D0C27F78BA414477CCC /* Pods-横向瀑布流.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-横向瀑布流.debug.xcconfig"; path = "Pods/Target Support Files/Pods-横向瀑布流/Pods-横向瀑布流.debug.xcconfig"; sourceTree = "<group>"; };
+		916FC4C85E4B582F28CB5EDD /* libPods-横向瀑布流.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-横向瀑布流.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7764F0B4864C3B85B13ADCC /* Pods-横向瀑布流.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-横向瀑布流.release.xcconfig"; path = "Pods/Target Support Files/Pods-横向瀑布流/Pods-横向瀑布流.release.xcconfig"; sourceTree = "<group>"; };
 		FF69F81B206F2D2200A86CFA /* 横向瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "横向瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF69F81E206F2D2200A86CFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF69F81F206F2D2200A86CFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +46,31 @@
 		FF69F82A206F2D2200A86CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF69F82C206F2D2200A86CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF69F82D206F2D2200A86CFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF69F834206F2D7D00A86CFA /* CBWaterFlowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBWaterFlowView.h; sourceTree = "<group>"; };
+		FF69F835206F2D7D00A86CFA /* CBWaterFlowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBWaterFlowView.m; sourceTree = "<group>"; };
+		FF69F837206F2DA700A86CFA /* CBWaterCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBWaterCollectionViewCell.h; sourceTree = "<group>"; };
+		FF69F838206F2DA700A86CFA /* CBWaterCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBWaterCollectionViewCell.m; sourceTree = "<group>"; };
+		FF69F839206F2DA700A86CFA /* CBWaterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CBWaterCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF69F83C206F2F3300A86CFA /* QQ20180331-105123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20180331-105123.png"; sourceTree = "<group>"; };
+		FF69F83E206F308800A86CFA /* SXLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXLineLayout.h; sourceTree = "<group>"; };
+		FF69F83F206F308800A86CFA /* SXLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXLineLayout.m; sourceTree = "<group>"; };
+		FF69F841206F357F00A86CFA /* CBWaterActivityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBWaterActivityCell.h; sourceTree = "<group>"; };
+		FF69F842206F357F00A86CFA /* CBWaterActivityCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBWaterActivityCell.m; sourceTree = "<group>"; };
+		FF69F843206F357F00A86CFA /* CBWaterActivityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CBWaterActivityCell.xib; sourceTree = "<group>"; };
+		FF69F849206F38A900A86CFA /* CBWaterSmallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWaterSmallView.m; sourceTree = "<group>"; };
+		FF69F84A206F38A900A86CFA /* CBWaterSmallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWaterSmallView.h; sourceTree = "<group>"; };
+		FF69F84C206F3BD000A86CFA /* JFAccountTopHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAccountTopHeaderView.h; sourceTree = "<group>"; };
+		FF69F84D206F3BD000A86CFA /* JFAccountTopHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAccountTopHeaderView.m; sourceTree = "<group>"; };
+		FF69F84F206F3BE900A86CFA /* JFAccountTopHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFAccountTopHeaderView.xib; sourceTree = "<group>"; };
+		FFCAACAC20745C8200F11E18 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		FFCAACB12074606A00F11E18 /* JFProvinceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFProvinceVC.h; sourceTree = "<group>"; };
+		FFCAACB22074606A00F11E18 /* JFProvinceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFProvinceVC.m; sourceTree = "<group>"; };
+		FFCAACB32074606A00F11E18 /* JFProvinceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFProvinceVC.xib; sourceTree = "<group>"; };
+		FFCAACB6207467E400F11E18 /* JFCityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFCityVC.h; sourceTree = "<group>"; };
+		FFCAACB7207467E400F11E18 /* JFCityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFCityVC.m; sourceTree = "<group>"; };
+		FFCAACB8207467E400F11E18 /* JFCityVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFCityVC.xib; sourceTree = "<group>"; };
+		FFCAAD1E2074DAFC00F11E18 /* JFTextImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTextImageVC.h; sourceTree = "<group>"; };
+		FFCAAD1F2074DAFC00F11E18 /* JFTextImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTextImageVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +78,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5471EEC9FEB7B89BFE44AEAD /* libPods-横向瀑布流.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037EEB5187CDAA5B5A3C97D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D120D0C27F78BA414477CCC /* Pods-横向瀑布流.debug.xcconfig */,
+				A7764F0B4864C3B85B13ADCC /* Pods-横向瀑布流.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		576C8A144500025A0C5C0739 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916FC4C85E4B582F28CB5EDD /* libPods-横向瀑布流.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF69F812206F2D2100A86CFA = {
 			isa = PBXGroup;
 			children = (
 				FF69F81D206F2D2200A86CFA /* 横向瀑布流 */,
 				FF69F81C206F2D2200A86CFA /* Products */,
+				037EEB5187CDAA5B5A3C97D9 /* Pods */,
+				576C8A144500025A0C5C0739 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +123,35 @@
 		FF69F81D206F2D2200A86CFA /* 横向瀑布流 */ = {
 			isa = PBXGroup;
 			children = (
+				FFCAACAC20745C8200F11E18 /* area.plist */,
+				FF69F83C206F2F3300A86CFA /* QQ20180331-105123.png */,
 				FF69F81E206F2D2200A86CFA /* AppDelegate.h */,
 				FF69F81F206F2D2200A86CFA /* AppDelegate.m */,
 				FF69F821206F2D2200A86CFA /* ViewController.h */,
 				FF69F822206F2D2200A86CFA /* ViewController.m */,
+				FFCAAD1E2074DAFC00F11E18 /* JFTextImageVC.h */,
+				FFCAAD1F2074DAFC00F11E18 /* JFTextImageVC.m */,
+				FFCAACB12074606A00F11E18 /* JFProvinceVC.h */,
+				FFCAACB22074606A00F11E18 /* JFProvinceVC.m */,
+				FFCAACB32074606A00F11E18 /* JFProvinceVC.xib */,
+				FFCAACB6207467E400F11E18 /* JFCityVC.h */,
+				FFCAACB7207467E400F11E18 /* JFCityVC.m */,
+				FFCAACB8207467E400F11E18 /* JFCityVC.xib */,
+				FF69F84C206F3BD000A86CFA /* JFAccountTopHeaderView.h */,
+				FF69F84D206F3BD000A86CFA /* JFAccountTopHeaderView.m */,
+				FF69F84F206F3BE900A86CFA /* JFAccountTopHeaderView.xib */,
+				FF69F84A206F38A900A86CFA /* CBWaterSmallView.h */,
+				FF69F849206F38A900A86CFA /* CBWaterSmallView.m */,
+				FF69F83E206F308800A86CFA /* SXLineLayout.h */,
+				FF69F83F206F308800A86CFA /* SXLineLayout.m */,
+				FF69F834206F2D7D00A86CFA /* CBWaterFlowView.h */,
+				FF69F835206F2D7D00A86CFA /* CBWaterFlowView.m */,
+				FF69F837206F2DA700A86CFA /* CBWaterCollectionViewCell.h */,
+				FF69F838206F2DA700A86CFA /* CBWaterCollectionViewCell.m */,
+				FF69F839206F2DA700A86CFA /* CBWaterCollectionViewCell.xib */,
+				FF69F841206F357F00A86CFA /* CBWaterActivityCell.h */,
+				FF69F842206F357F00A86CFA /* CBWaterActivityCell.m */,
+				FF69F843206F357F00A86CFA /* CBWaterActivityCell.xib */,
 				FF69F824206F2D2200A86CFA /* Main.storyboard */,
 				FF69F827206F2D2200A86CFA /* Assets.xcassets */,
 				FF69F829206F2D2200A86CFA /* LaunchScreen.storyboard */,
@@ -78,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF69F831206F2D2200A86CFA /* Build configuration list for PBXNativeTarget "横向瀑布流" */;
 			buildPhases = (
+				8F38DDAB5421905E7C758144 /* [CP] Check Pods Manifest.lock */,
 				FF69F817206F2D2100A86CFA /* Sources */,
 				FF69F818206F2D2100A86CFA /* Frameworks */,
 				FF69F819206F2D2100A86CFA /* Resources */,
+				E1511706908768FBCF5813FE /* [CP] Embed Pods Frameworks */,
+				C2ABFBA30C5B3964DE1EF689 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,22 +222,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCAACB52074606A00F11E18 /* JFProvinceVC.xib in Resources */,
+				FF69F83D206F2F3300A86CFA /* QQ20180331-105123.png in Resources */,
 				FF69F82B206F2D2200A86CFA /* LaunchScreen.storyboard in Resources */,
+				FF69F83B206F2DA700A86CFA /* CBWaterCollectionViewCell.xib in Resources */,
 				FF69F828206F2D2200A86CFA /* Assets.xcassets in Resources */,
 				FF69F826206F2D2200A86CFA /* Main.storyboard in Resources */,
+				FFCAACAD20745C8200F11E18 /* area.plist in Resources */,
+				FFCAACBA207467E400F11E18 /* JFCityVC.xib in Resources */,
+				FF69F845206F357F00A86CFA /* CBWaterActivityCell.xib in Resources */,
+				FF69F850206F3BE900A86CFA /* JFAccountTopHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F38DDAB5421905E7C758144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-横向瀑布流-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2ABFBA30C5B3964DE1EF689 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-横向瀑布流/Pods-横向瀑布流-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1511706908768FBCF5813FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-横向瀑布流/Pods-横向瀑布流-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF69F817206F2D2100A86CFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCAACB9207467E400F11E18 /* JFCityVC.m in Sources */,
 				FF69F823206F2D2200A86CFA /* ViewController.m in Sources */,
+				FF69F84B206F38A900A86CFA /* CBWaterSmallView.m in Sources */,
+				FF69F844206F357F00A86CFA /* CBWaterActivityCell.m in Sources */,
+				FF69F83A206F2DA700A86CFA /* CBWaterCollectionViewCell.m in Sources */,
+				FF69F840206F308800A86CFA /* SXLineLayout.m in Sources */,
 				FF69F82E206F2D2200A86CFA /* main.m in Sources */,
+				FF69F84E206F3BD000A86CFA /* JFAccountTopHeaderView.m in Sources */,
 				FF69F820206F2D2200A86CFA /* AppDelegate.m in Sources */,
+				FFCAACB42074606A00F11E18 /* JFProvinceVC.m in Sources */,
+				FF69F836206F2D7D00A86CFA /* CBWaterFlowView.m in Sources */,
+				FFCAAD202074DAFC00F11E18 /* JFTextImageVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +436,13 @@
 		};
 		FF69F832206F2D2200A86CFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D120D0C27F78BA414477CCC /* Pods-横向瀑布流.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6P67Z549Z;
 				INFOPLIST_FILE = "横向瀑布流/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +452,13 @@
 		};
 		FF69F833206F2D2200A86CFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7764F0B4864C3B85B13ADCC /* Pods-横向瀑布流.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6P67Z549Z;
 				INFOPLIST_FILE = "横向瀑布流/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
